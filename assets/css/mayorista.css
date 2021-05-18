@@ -1,6 +1,6 @@
 #hero {
     width: 100%;
-    height: calc(60vh - 110px);
+    height: calc(80vh - 110px);
     padding: 0;
     overflow: hidden;
     background: #000;
@@ -8,7 +8,7 @@
   
   #hero .carousel-item {
     width: 100%;
-    height: calc(60vh - 110px);
+    height: calc(80vh - 110px);
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@
     right: 0;
     overflow: hidden;
   }
-  
+
   #hero .carousel-content {
     text-align: left;
   }
@@ -150,4 +150,8 @@
     #hero .carousel-control-prev, #hero .carousel-control-next {
       width: 5%;
     }
+  }
+
+  #mayoristas .row{
+    height: 20vh;
   }
