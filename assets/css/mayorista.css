@@ -1,6 +1,26 @@
+.mayorista-img{
+width: 100%;
+max-height: 30vh;
+}
+.calltoaction {
+  display: flex;
+  height: 8vh;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+  background-color: #039be2;
+}
+
+.calltoaction div {
+  display: flex;
+  JUSTIFY-CONTENT: space-around;
+  WIDTH: 45%;
+  align-items: center;
+}
 #hero {
     width: 100%;
-    height: calc(80vh - 110px);
+    height: calc(50vh - 110px);
     padding: 0;
     overflow: hidden;
     background: #000;
@@ -8,7 +28,7 @@
   
   #hero .carousel-item {
     width: 100%;
-    height: calc(80vh - 110px);
+    height: calc(50vh - 110px);
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
@@ -45,8 +65,9 @@
   }
   
   @media (max-width: 992px) {
+
     #hero, #hero .carousel-item {
-      height: calc(60vh - 70px);
+      height: calc(40vh - 70px);
     }
     #hero .carousel-content.container {
       padding: 0 50px;
@@ -135,12 +156,14 @@
     #hero h2 {
       font-size: 28px;
     }
+
   }
   
   @media (max-height: 500px) {
     #hero, #hero .carousel-item {
       height: 120vh;
     }
+    
   }
   
   @media (min-width: 1024px) {

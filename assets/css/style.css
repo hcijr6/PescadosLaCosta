@@ -1,9 +1,17 @@
 .map-google{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding: 0px!important;
 }
-
+.map-google.right{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 0, 0);
@@ -371,6 +379,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 @media (max-width: 992px) {
+  .map-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
+  
   #hero, #hero .carousel-item {
     height: calc(100vh - 70px);
   }
@@ -538,6 +555,14 @@ section {
 }
 
 @media (max-width: 768px) {
+  .map-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px!important;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+  }
   .breadcrumbs .d-flex {
     display: block !important;
   }
