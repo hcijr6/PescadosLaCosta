@@ -10,13 +10,7 @@ max-height: 30vh;
   margin-top: 30px;
   color: white;
   background-color: #039be2;
-}
-
-.calltoaction div {
-  display: flex;
-  JUSTIFY-CONTENT: space-around;
-  WIDTH: 45%;
-  align-items: center;
+  font-size: large;
 }
 #hero {
     width: 100%;
