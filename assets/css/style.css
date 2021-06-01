@@ -6,7 +6,9 @@
   margin-top: 40px;
 }
 
-
+#porcentaje::after{
+    content: '%';
+}
 /* hover styles */
 .location-listing {
   position: relative;
